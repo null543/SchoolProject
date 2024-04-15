@@ -1,0 +1,73 @@
+body {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background: rgb(42, 56, 70); /* Темный фон */
+    color: #fff; /* Светлый текст */
+}
+
+h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.1); /* Слегка прозрачные элементы списка */
+    padding: 10px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+li:hover {
+    background: rgba(255, 255, 255, 0.2); /* Увеличение прозрачности при наведении */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: white;
+    background: #3498db; /* Яркий цвет для контраста */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #2980b9; /* Темный оттенок при наведении */
+}
+
+#copyButton {
+    background: #1c924d;
+}
+
+#copyButton:hover {
+    background: #2edd77;
+}
+
+#refreshButton {
+    background: #b6940d;
+}
+
+#refreshButton:hover {
+    background: #d6ae0f;
+}
+
+#openFormButton {
+    background: #14679e;
+}
+
+#openFormButton:hover {
+    background: #1e99eb;
+}

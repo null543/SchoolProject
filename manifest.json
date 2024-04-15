@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Filter Orders",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "storage", "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://funpay.com/orders/trade*"],
+      "js": ["content.js"]
+    },
+    {
+      "matches": ["https://funpay.freshdesk.com/ru-RU/support/tickets/new?ticket_form=%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D0%B0_%D1%81_%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%BC"],
+      "js": ["formFiller.js"]
+    }
+  ]
+}
