@@ -2,7 +2,7 @@
 
  document.getElementById('helpdesk_ticket_custom_field_cf_your_funpay_username_login_name_2914071').value = 'glhf123123';
  document.getElementById('helpdesk_ticket_ticket_type').value = 'Покупатель забыл подтвердить заказ';
- document.getElementById('helpdesk_ticket_email').value = 'defakt970@gmail.com';
+ document.getElementById('helpdesk_ticket_email').value = 'defakt970@gmail.co';
 // Находим целевой элемент по его атрибутам и ID
 
 
