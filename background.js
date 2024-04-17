@@ -9,6 +9,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 // В background.js
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.action === 'refreshOrdersComplete') {
-      chrome.runtime.sendMessage({ action: 'ordersUpdated' });
+      chrome.runtime.sendMessage({ action: 'ordersUpdates' });
   }
 });
