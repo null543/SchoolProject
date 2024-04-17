@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 ordersList.appendChild(listItem);
             });
         } else {
-            ordersList.textContent = 'Старых заказов нет.';
+            ordersList.textContent = 'Старых заказов нет';
         }
     });
 
